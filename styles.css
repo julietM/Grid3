@@ -1,0 +1,26 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px ;
+    grid-template-rows: 250px 250px;   
+    grid-gap:14px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+
+}
+.item{
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Franklin Gothic;
+    font-size: 50px;
+}
+.item:nth-child(1){
+    grid-column: 1/8;
+}
+body{
+    background-color: greenyellow;
+}
